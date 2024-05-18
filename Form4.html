@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Form 4</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <style>
+        button{
+            border-radius: 10px;
+        }
+        .button{
+            color: black;
+            padding: 7px;
+            border: 1px solid black;
+        }
+        fieldset{
+            border-color: crimson;
+            border-width: 1px;
+        }
+        input{
+            width: 800px;
+            border-top: 1px solid grey;
+            padding: 5px;
+            margin: 8px;
+        }
+        .fff{
+            margin-top: 15px;
+        }
+    </style>
+    <fieldset>
+        <legend>The First Section</legend><br>
+        <fieldset>
+            <legend>The First Subsection</legend>
+            <label for="Field">field 1</label>
+            <input type="text" name="Field" id="Field">
+        </fieldset>
+        <label for="Field 2">field 1</label>
+        <input type="text" name="Field 2" id="Field 2" class="fff">
+    </fieldset>
+    <br>
+    <fieldset>
+        <legend>Section II</legend>
+        <fieldset>
+            <legend>Section II-A</legend>
+            <label for="Field 3">field 1</label>
+            <input type="text" name="Field 3" id="Field 3">
+        </fieldset><br>
+        <fieldset>
+            <legend>Section II-B</legend>
+            <label for="Field 4">field 1</label>
+            <input type="text" name="Field 4" id="Field 4">
+        </fieldset>
+    </fieldset>
+    <br>
+    <button>Go! Go! Go!</button>
+    <br>
+    <br>
+    <a href="./index.html" class="button">&#8592;</a>
+</body>
+</html>

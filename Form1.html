@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Form 1</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <style>
+        fieldset{
+            width: 250px;
+            padding: 15px;
+            
+        }
+        .button{
+            color: black;
+            padding: 7px;
+            border: 1px solid black;
+        }
+    </style>
+    <fieldset>
+        <legend>Login</legend>
+        <label for="Username">Username*</label><br>
+        <input type="text" name="Username" id="Username"><br>
+        <label for="Password">Password*</label><br>
+        <input type="password" name="Password" id="Password">
+    </fieldset>
+    <fieldset>
+        <legend>Gender*</legend>
+        <label for="Male">Male</label>
+        <input type="radio" name="Male" id="Male">
+        <label for="Female">Female</label>
+        <input type="radio" name="Female" id="Female">
+    </fieldset>
+    <fieldset>
+        <legend>Programming Skill</legend>
+        <label for="Java">Java</label>
+        <input type="checkbox" name="Java" id="Java">
+        <label for="C++">C++</label>
+        <input type="checkbox" name="C++" id="C++">
+        <label for="C#">C#</label>
+        <input type="checkbox" name="C#" id="C#">
+    </fieldset>
+    <fieldset>
+        <legend>Fruit</legend>
+        <label for="Fruit">Choose a fruit:</label>
+        <select name="Fruit" id="Fruit">
+            <option value="Banana" selected>Banana</option>
+            <option value="Orange">Orange</option>
+            <option value="Apple">Apple</option>
+        </select>
+    </fieldset>
+    <textarea name="Comments" id="Comments" cols="36" rows="8" placeholder="Enter your comments here"></textarea>
+<br><br>
+
+    <a href="./index.html" class="button">&#8592;</a>
+</body>
+</html>
